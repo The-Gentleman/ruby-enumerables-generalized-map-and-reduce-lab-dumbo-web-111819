@@ -10,6 +10,8 @@ while i < array.length do
 result 
 end
 
-def reduce(array)
+def reduce(array, start = nil)
+  
+  
   
 end 
