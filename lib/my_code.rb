@@ -13,12 +13,13 @@ end
 def reduce(array, start = nil)
  
  if sv
-   num1 = sv 
+   sum = start
  else 
    num1 = array[0]
    i = 1 
  end
  
 while i < array.length 
+ yield (num1, array[i])
  
 end 
