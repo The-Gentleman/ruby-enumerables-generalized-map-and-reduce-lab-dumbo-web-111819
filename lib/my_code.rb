@@ -11,7 +11,7 @@ result
 end
 
 def reduce(array, start = nil)
-  
-  
+ 
+ if sv
   
 end 
